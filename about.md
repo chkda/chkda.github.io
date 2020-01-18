@@ -1,6 +1,6 @@
 # About
 
-[Profile Pic](images/IMG-20181223-WA0002.jpg)
+![Profile Pic](images/IMG-20181223-WA0002.jpg)
 
 Hii. My name is Chhaya Kumar Das. I work in the field of Deep Learning and Computer Vision. My interests revolve around Neural Networks,Deep Learning, Machine Learning, Maths(to some extent) and Psychology(Human Behaviour and Game Theory). 
 
