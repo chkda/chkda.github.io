@@ -1,6 +1,6 @@
 # About
 
-<img align="center" src="https://chkda.github.io/images/IMG-20181223-WA0002.jpg" width="640" height="480" />
+<img align="center" src="https://chkda.github.io/images/IMG-20181223-WA0002.jpg" width="320" height="240" />
 
 Hii. My name is Chhaya Kumar Das. I work in the field of Deep Learning and Computer Vision. My interests revolve around Neural Networks,Deep Learning, Machine Learning, Maths(to some extent) and Psychology(Human Behaviour and Game Theory). 
 
