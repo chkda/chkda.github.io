@@ -1,5 +1,7 @@
 # About
 
+[Profile Pic](images/IMG-20181223-WA0002.jpg)
+
 Hii. My name is Chhaya Kumar Das. I work in the field of Deep Learning and Computer Vision. My interests revolve around Neural Networks,Deep Learning, Machine Learning, Maths(to some extent) and Psychology(Human Behaviour and Game Theory). 
 
 I am well versed in Python, C++, CUDA and Dockers. When it comes to ML libraries I am familiar with Tensorflow, Pytorch and Scikit-learn. I normally prefer Tensorflow(not Keras!! I don't like Keras) for my all my projects and dev work.
