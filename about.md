@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Chhaya Kumar Das. I am from India. I am passionate about RL and Robotics.  
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Will Update this later
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:chayakudas.das56@gmail.com)
