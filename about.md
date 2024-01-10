@@ -12,4 +12,4 @@ Do you really want to know more?! Get in touch
 
 ### Contact me
 
-chayakudas.das56@gmail.com](mailto:chayakudas.das56@gmail.com)
+[chayakudas.das56@gmail.com](mailto:chayakudas.das56@gmail.com)
