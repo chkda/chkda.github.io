@@ -38,14 +38,16 @@ UseHugoToc: false
 
 Welcome to my blog! This is my first post.
 
-## Getting Started
+### Why I Have Decided To Write
 
-I'm excited to share my journey here.
+To be honest, I always wanted to started this. But for some reason was never able to. Now lot of the commitments have freed up. I can just simply do things that I like. Without any external goal in mind.
 
 ### What I'll Write About
 
 - Technology
+- Philosophy
 - Personal experiences
-- Tutorials
+- Economics
+- Anything that I find interesting
 
-Stay tuned for more!
+I like reading about different things. I have some diverse interests. Also I think I am very curious. I don't really know what I specifically find interesting
