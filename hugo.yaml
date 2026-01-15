@@ -1,6 +1,6 @@
 baseURL: 'https://chkda.github.io'
 languageCode: 'en-us'
-title: "Chhaya's Blog"
+title: "Chhaya's Space"
 
 theme: ["PaperMod"]
 
@@ -60,7 +60,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Chhaya's Blog"
+    text: "Chhaya's Space"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -81,7 +81,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Welcome!!"
+    Title: "\U0001F44B Welcome to Chhaya's space"
     Content: Hi, my name is Chhaya. I will be maintaining this blog as my learning notes. I will write about everything I read from tech to economics to philosophy
 
   socialIcons:
