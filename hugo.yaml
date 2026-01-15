@@ -87,9 +87,7 @@ params:
   socialIcons:
     - name: x
       url: "https://x.com/chhaya086"
-    - name: stackoverflow
-      url: "https://www.linkedin.com/in/chhaya-kumar-das/"
-    - name: linkedin
+    - name: github
       url: "https://github.com/chkda"
 
   analytics:
