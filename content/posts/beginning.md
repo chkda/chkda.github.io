@@ -4,7 +4,7 @@ date: 2025-01-15
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
-# author: "Me"
+author: "Chhaya Kumar Das"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
@@ -17,7 +17,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: false
 searchHidden: false
-ShowReadingTime: false
+ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: false
