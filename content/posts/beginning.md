@@ -1,5 +1,5 @@
 ---
-title: "The begining"
+title: "The beginning"
 date: 2025-01-15
 # weight: 1
 # aliases: ["/first"]
