@@ -1,4 +1,4 @@
-baseURL: 'https://chkda.github.io/chhaya-blog/'
+baseURL: 'https://chkda.github.io'
 languageCode: 'en-us'
 title: 'My New Hugo Site'
 
@@ -86,11 +86,11 @@ params:
 
   socialIcons:
     - name: x
-      url: "https://x.com/"
+      url: "https://x.com/chhaya086"
     - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+      url: "https://www.linkedin.com/in/chhaya-kumar-das/"
+    - name: linkedin
+      url: "https://github.com/chkda"
 
   analytics:
     google:
