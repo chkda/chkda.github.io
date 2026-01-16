@@ -89,6 +89,8 @@ params:
       url: "https://x.com/chhaya086"
     - name: github
       url: "https://github.com/chkda"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/chhaya-kumar-das/"
 
   analytics:
     google:
