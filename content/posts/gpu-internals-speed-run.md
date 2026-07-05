@@ -135,7 +135,7 @@ For data shared across threads, data has to be moved to shared memory.
 - Streaming Assembly (SASS) is the assembly format that runs on CUDA devices.
 - Compute Capability is a versioning system that tells us what instructions can run on which CUDA device.
 - A thread is the lowest unit of execution for a GPU.
-- A single CUDA Core executes instructions from a single thread.
+- A single CUDA Core executes instructions for a single thread.
 - A thread has its own registers.
 - A warp is a group of threads that are scheduled together and execute in parallel.
 - All threads in a warp are scheduled on the same SM.
@@ -148,7 +148,7 @@ For data shared across threads, data has to be moved to shared memory.
 ## Cooperative Thread Arrays
 
 - A Cooperative Thread Array (CTA) is a collection of threads scheduled to the same SM.
-- It is a common term for a thread block.
+- It is a lower level term for a thread block.
 - A CTA can have many warp groups.
 - Threads in the same CTA can coordinate with each other, but threads not in the same CTA coordinate through global memory.
 
@@ -180,8 +180,8 @@ Block 3 → SM 3
 ```text
 Block 0 and 4 → SM 0
 Block 1 and 5 → SM 1
-Block 2 and 6 → SM 0
-Block 3 and 7 → SM 1
+Block 2 and 6 → SM 2
+Block 3 and 7 → SM 3
 ```
 
 - Blocks have multiple warp groups.
@@ -191,7 +191,7 @@ Block 3 and 7 → SM 1
 
 ## Memory Hierarchy
 
-<!-- Diagram placeholder: Grid → VRAM → Block → L1 data cache → Thread → Register -->
+![Memory_hierarchy](/images/gpu-internal-speed-run/Memory-hierarchy.png)
 
 - Registers hold information manipulated by a single thread and are normally stored in the register file of an SM.
 - L1 data cache holds data and information for a limited block in an SM. This is also called shared memory.
