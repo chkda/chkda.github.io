@@ -39,7 +39,7 @@ This article is mostly focussed on CUDA devices. From here onwards whenever I me
 
 All the notes that have been collected are for my self study. I will put sources below
 
-## GPU Architecture
+# GPU Architecture
 
 CUDA stands for Compute Unified Device Architecture.
 
@@ -127,7 +127,9 @@ Each thread has to calculate the memory address in global memory and then bring 
 For data shared across threads, data has to be moved to shared memory.
 
 
-## GPU Software Blocks
+# GPU Software Blocks
+
+## Cores, Threads and Warps 
 
 - Parallel Thread Execution (PTX) is an intermediate representation for code that runs on a CUDA device.
 - Streaming Assembly (SASS) is the assembly format that runs on CUDA devices.
@@ -151,7 +153,7 @@ For data shared across threads, data has to be moved to shared memory.
 - Threads in the same CTA can coordinate with each other, but threads not in the same CTA coordinate through global memory.
 
 
-## Grids, Blocks, and Threads
+## Thread Hierarchy
 
 - A kernel is a typical unit of CUDA code, similar to functions in other languages for CPUs.
 - A kernel is called or launched once and is executed many times, once by each thread.
@@ -196,6 +198,6 @@ Block 3 and 7 → SM 1
 - GPU VRAM is called global memory. It is accessible to all threads. All input during grid launch is placed here.
 
 
-## References 
+# References 
 
 1. Modal, [GPU Glossary](https://modal.com/gpu-glossary/).
