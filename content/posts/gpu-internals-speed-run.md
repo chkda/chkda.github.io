@@ -45,6 +45,7 @@ CUDA stands for Compute Unified Device Architecture.
 
 ![GPU/CPU architecture](/images/gpu-internal-speed-run/CPU-GPU-Arch.svg)
 
+*Figure adapted from the [Modal GPU Glossary](https://modal.com/gpu-glossary/).*
 
 GPU instructions are carried out by streaming multiprocessors (SMs).
 
@@ -54,6 +55,7 @@ An SM in NVIDIA is analogous to a CPU core. SMs execute computation and store st
 
 ![H100_SM architecture](/images/gpu-internal-speed-run/SM_Architecture.svg)
 
+*Figure adapted from the [Modal GPU Glossary](https://modal.com/gpu-glossary/).*
 
 ## GPU Core Concepts
 
@@ -192,3 +194,8 @@ Block 3 and 7 → SM 1
 - Registers hold information manipulated by a single thread and are normally stored in the register file of an SM.
 - L1 data cache holds data and information for a limited block in an SM. This is also called shared memory.
 - GPU VRAM is called global memory. It is accessible to all threads. All input during grid launch is placed here.
+
+
+## References 
+
+1. Modal, [GPU Glossary](https://modal.com/gpu-glossary/).
