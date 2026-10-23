@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 330" role="img" aria-labelledby="title desc">
+  <title id="title">LoRA: the equation and its matrix shapes</title>
+  <desc id="desc">h = W zero x + (alpha/r) B A x. Shapes: h is d by 1, W zero is d by k, each x is k by 1, B is d by r, and A is r by k. W zero is frozen; B and A are trainable. Both contributions have shape d by 1.</desc>
+  <rect x="1" y="1" width="1098" height="328" rx="22" fill="#f8fafc" stroke="#e2e8f0"/>
+  <rect x="202" y="64" width="222" height="164" rx="16" fill="#edf1f6"/>
+  <rect x="493" y="64" width="548" height="164" rx="16" fill="#e7f5ef"/>
+  <g text-anchor="middle">
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="#1e293b">
+      <text x="77" y="135" font-style="italic">h</text>
+      <text x="153" y="135">=</text>
+      <text x="265" y="135" font-style="italic">W<tspan font-size="28" baseline-shift="sub" font-style="normal">0</tspan></text>
+      <text x="365" y="135" font-style="italic">x</text>
+      <text x="458" y="135">+</text>
+      <text x="565" y="135">α/r</text>
+      <text x="710" y="135" fill="#0f766e" font-style="italic">B</text>
+      <text x="840" y="135" fill="#0f766e" font-style="italic">A</text>
+      <text x="970" y="135" font-style="italic">x</text>
+    </g>
+    <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="21" fill="#64748b">
+      <text x="77" y="186">d × 1</text>
+      <text x="265" y="186">d × k</text>
+      <text x="365" y="186">k × 1</text>
+      <text x="710" y="186" fill="#0f766e">d × r</text>
+      <text x="840" y="186" fill="#0f766e">r × k</text>
+      <text x="970" y="186">k × 1</text>
+    </g>
+    <g fill="none" stroke-width="1.5" stroke-linecap="round">
+      <path d="M230 202V210H300V202" stroke="#94a3b8"/>
+      <path d="M675 202V210H875V202" stroke="#69ad98"/>
+      <path d="M216 246V254H410V246" stroke="#c0cbd8"/>
+      <path d="M507 246V254H1027V246" stroke="#9bcdbb"/>
+    </g>
+    <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="600" letter-spacing="1.4">
+      <text x="265" y="54" fill="#64748b">FROZEN</text>
+      <text x="775" y="54" fill="#0f766e">TRAINABLE</text>
+    </g>
+    <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="17">
+      <text x="313" y="290" fill="#64748b">Base output · d × 1</text>
+      <text x="767" y="290" fill="#0f766e">Adapter update · d × 1</text>
+    </g>
+  </g>
+</svg>
