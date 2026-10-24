@@ -1,5 +1,5 @@
 ---
-title: "LoRA and QLoRA: Elixir for the GPU poor"
+title: "LoRA and QLoRA: Finetuning with less memory"
 date: 2026-10-24
 # weight: 1
 # aliases: ["/first"]
