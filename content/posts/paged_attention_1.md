@@ -3,7 +3,7 @@ title: "PagedAttention, Part 1: Block Allocation"
 date: 2026-11-08
 # weight: 1
 # aliases: ["/first"]
-tags: ["llm","quantization"]
+tags: ["llm","inference"]
 author: "Chhaya Kumar Das"
 # author: ["Me", "You"] # multiple authors
 showToc: true
